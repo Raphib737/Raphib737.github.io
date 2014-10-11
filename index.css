@@ -1,0 +1,507 @@
+html,head, body{
+}
+
+.navbar{
+	z-index: 5;
+	position: absolute;
+	top: 0%;
+	width: 99%;
+	height: 52px ;
+  opacity: .95;
+	background-color: black;}
+.navfontcolor{
+  color: white;
+  font-size:  200% ;
+  text-align: center;}
+.navhome{
+	display: inline-block;
+	float: left;
+	height: 50px;
+	width: 17%;
+    background-repeat: none; 
+    margin-left: 5%;
+    border-right:2px solid white;
+    border-left: 2px solid white;}
+.navabout{
+	display: inline-block;
+	float: left;
+	height: 50px;
+	width: 17%;
+    background-repeat: none; 
+    border-right:2px solid white;	}
+.navpro{
+	display: inline-block;
+	float: left;
+	height: 50px;
+	width: 17%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover  ;
+    background-repeat: none; 
+    border-right:2px solid white;	}
+.navgaming{
+	z-index: 2;
+	display: inline-block;
+	float: left;
+	height: 50px;
+	width: 17%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover  ;
+    background-repeat: none; 
+    border-right:2px solid white;}
+.navcon{
+	z-index: 1;
+	display: inline-block;
+	float: left;
+	height: 50px;
+	width: 17%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover  ;
+    margin-right: 1%;
+    border-right:2px solid white;
+    background-repeat: none; }
+/*.navhome:hover , .navabout:hover, .navgaming:hover, .navpro:hover, .navcon:hover {
+	z-index: 1;
+	color: black	;
+	background-color: #efeae6;} */
+.circle{
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px ;}
+.text{
+	position: relative; 	
+	vertical-align: bottom;
+	text-align: center;
+	font-size: 100%;}
+/***************************************************************************************************************/
+/*HOME PAGE ****************************************************************************************************/
+
+.center{text-align: center;}
+.center1{margin-left: 25%;}
+.centername{
+  text-align: center;
+  background-color:black ; 
+  opacity: .8;
+  border-radius: 12px;}
+.fill{}
+.font{font-size: 1.5em;}
+.font2{ font-size: 1.75em;}
+p{ text-align: left}
+.background1{
+  background: url("./pics/white.jpg")fixed ;
+  background: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height : 800px;
+  margin-top: -2%;}
+.white{
+	background-color: transparent;
+	width:75%;
+	height: 88%;
+	top:5%;
+	margin-right: auto;
+	margin-left: auto; 
+	border-radius: 12px}
+.centerpic{
+	float: left;
+	width: 40%;
+	margin-top: 5%;
+	margin-right: 0% ;
+	margin-left: auto;}
+.centerabout{
+	background: white;
+  opacity: .8;
+	float: left;
+	box-shadow: 7px 7px 8px black;
+	width: 50%;
+	padding-left: 2%;
+	margin-top: 5%;
+	margin-left: 5%;
+	border-top: 4px solid black;
+	border-radius: 10px;}
+.left{text-align: center;}
+.propic{
+  margin-left: 10%;
+  margin-top: 20%;
+  width: 100%;
+  height: 65%;
+  position: center;
+  box-shadow: -7px -7px 8px black;
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px ;}
+.center{
+	width: 100%;
+	position: center;
+	margin-top: 5%;
+	text-align: center;
+	vertical-align: center;
+	margin-bottom: 2%;}
+.about{
+	text-align: center ;	
+	font-size: 100%;
+	top: 2%;}
+.name{
+	color: white ;
+	font-size: 50px	;
+	position: center;
+	text-align: center;
+	font-size: 500%;
+	margin-bottom: -5%;}
+
+/********************************************************************************************************/
+/*ABOUT**************************************************************************************************/
+
+
+.backgroundblack{
+	margin-top: 0%;
+	background-color: black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+	}
+.aboutwall{
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  top: 10%;
+  width: 80%;
+  height: 80%;
+  background: url(./pics/space.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover  ;
+  border:5px solid white;"
+  border-style:inset;}
+.wallfont{
+  top: 15%;
+  color : white;
+  width: 100% ;
+  height: 100%;
+  font-size: 8em;}
+
+.spacediv2{
+  width: 100%;
+  opacity: 1px;
+  height: 1%;
+}
+.bioback{
+  width: 100%;
+  height: 1000px;
+  background: url("./pics/bu.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.biotitle{
+  width: 50%;
+  height: 5%;
+  padding-left: 25%;
+}
+.biostyle{
+  color: black;
+  background : white;
+  opacity: .9;
+  border-radius: 12px;
+  font-size: 5em;
+  border: 4px solid black;
+  box-shadow: -7px -7px 8px black;
+}
+
+.propic2{
+  float:left;
+  padding-top: 1%;
+  height: 45%;
+  width: 25%;
+  border-radius: 12px;
+  opacity: 1;
+}
+.propic2e{
+  float: left;
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.biography{
+  margin-top: 2%;
+  float: left;
+  height: 65%;
+  width: 23%;
+  opacity: .9;
+  margin-left:1%;
+  margin-right: .25%;
+  border-radius: 12px;
+  background: white;
+  border: 4px solid black;
+  box-shadow: 7px -7px 8px black;
+}
+.biography2{
+  margin-top: 2%;
+  float: left;
+  height: 65%;
+  width: 25%;
+  opacity: .9;
+  margin-left:;
+  margin-right: 10px;
+  border-radius: 12px;
+  background: white;
+  border: 4px solid black;
+  box-shadow: 7px -7px 8px black;
+}
+.biographyspace{
+  float: left;
+  height: 7%;
+  padding-left: 12%;
+}
+.insidebio{
+  height: 90%;
+  width: 100%;
+  background: white;
+  border-radius: 12px;
+  opacity: .8;
+}
+
+.biohead{
+  font-size: 3em;
+}
+.biofont{
+  font-size: 1.25em;
+}
+.resume:visited{
+  text-decoration: none;
+  color: black;
+}
+.large{font-size: 2em;}
+
+
+
+
+/*PROGRAMMING*******************************************************************************************************************************************/
+.prowall{
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  top: 10%;
+  width: 80%;
+  height: 80%;
+  background: url(./pics/matrix.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover  ;
+  border:5px solid white;"
+  border-style:inset;}
+
+.programming{
+   background: url("./pics/matrix2.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover  ;
+  background-repeat: none;
+  height: 900px;
+} 
+.spacediv{
+  width: 100%;
+  opacity: 1px;
+  height: 3%;
+}
+.prodiv{
+  margin-left: 25%;
+  margin-right: auto;
+  width: 50%;
+  height: 10%;
+  background: black;
+  color: green;
+  border-radius: 12px;
+  margin-bottom: 2%;
+  box-shadow: -10px -10px 5px green;
+}
+.protext{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  font-size: 5em;
+  margin-top: 0%;
+  margin-left: 23%;
+  margin-right: auto;
+}
+
+.prodivs{
+  float: left;
+  position: center;
+  padding-top: 1%;
+  padding-bottom:2%s;
+  height: 5%;
+  width: 30%;
+  margin-left: 3%;
+  margin-right: auto;
+  background: black;
+  border-radius: 12px ;
+  box-shadow: 10px -10px 5px green;
+
+
+}
+
+.divstext{
+  color: green;
+  text-align: center;
+  font-size: 150%;
+  position: center;
+
+}
+/*******************************************************************************************************************************************************/
+/*LEAGUE OF LEGENDS-----------------------------------------------------------------------------------------------------------------------------------*/
+.gamewall{
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  top: 10%;
+  width: 80%;
+  height: 80%;
+  background: url("./pics/LoL.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover  ;
+  border:5px solid white;"
+  border-style:inset;
+}
+
+.league {
+   margin-top: 0% ;
+   background: url("./pics/lol_wallpaper.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover  ;
+  background-repeat: none;}
+.leagueinner{
+  background: url("./pics/paper.jpg");
+  background-position: absolute;
+
+  font-family: 'Roboto Slab', serif;
+  padding-right: 10%;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  height: 100%;}
+.content{
+	background: url(./pics/content.png)  ;
+	background-size: cover;
+	margin-left: 10%;
+	margin-right: auto;
+	width: 100%;
+	height: 275px;}
+.loltrophyborder{
+	margin-top: 0%;
+	margin-left: 25%;
+	width: 80%;
+	height: 20%;
+	margin-left: auto;}
+.loltrophy{
+	margin-right: 5%;
+	float: left;
+	width: 20%;
+	height: 100%;
+  margin-top: 0%;}
+
+.tropics{
+	width: 125%;
+	height: 125%;}
+.gameprofile{
+  width: 100%;
+  height: 5%;
+  margin-left:10%;
+  margin-right: auto;
+  margin-top: 5%;
+  font-size: 100%;}
+.champdiv{
+  position: center;
+  width: 100%;
+  margin-left: 10%;
+  margin-top: 2.5%;}
+.gimg{
+  width: 25%;
+  height: 130px;}
+.large{ font-size: 2em;}
+/*************************************************************************************************************************/
+/*CONTACT*****************************************************************************************************************/
+.contwall{
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  top: 10%;
+  width: 80%;
+  height: 80%;
+  background: url("./pics/contact.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover  ;
+  border:5px solid white;"
+  border-style:inset;
+}
+
+.contback{
+  background: url("./pics/hack.jpg")no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover  ;
+  background-repeat: none;
+  width: 100%;
+  height: 700px;
+}
+
+.continner{
+  background: white;
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
+  opacity: .9;
+  border-radius: 12px;
+  border: 12px solid gray;
+
+}
+
+.conthead{
+  font: black;
+  font-size: 2em;
+}
+.linkpic{
+  float: left;
+  size: 100%;
+  width: 30%;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-right: auto;
+  border-radius: 12px;
+}
+
+.git{
+  float: left;
+  size: 50%;
+  width: 15%;
+  margin-left: 5%;
+  margin-right: auto;
+  border-radius: 12px;
+}
