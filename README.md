@@ -1,4 +1,0 @@
-RaphaelBaysa
-============
-
-Personal Website
