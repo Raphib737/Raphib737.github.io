@@ -16,3 +16,5 @@ $(window).on("load",function() {
     fade(); //Fade in completely visible elements during page-load
     $(window).scroll(function() {fade();}); //Fade in elements during scroll
 });
+
+
