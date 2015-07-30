@@ -1,0 +1,416 @@
+<<<<<<< HEAD
+html,head, body{
+}
+
+.navbar{
+	z-index: 5;
+	position: absolute;
+	top: 0%;
+	width: 99%;
+	height: 52px ;
+  opacity: .95;
+	background-color: black;}
+.navfontcolor{
+  color: white;
+  font-size:  200% ;
+  text-align: center;}
+.navhome{
+	display: inline-block;
+	float: left;
+	height: 50px;
+	width: 17%;
+    background-repeat: none; 
+    margin-left: 5%;
+    border-right:2px solid white;
+    border-left: 2px solid white;}
+.navabout{
+	display: inline-block;
+	float: left;
+	height: 50px;
+	width: 17%;
+    background-repeat: none; 
+    border-right:2px solid white;	}
+.navpro{
+	display: inline-block;
+	float: left;
+	height: 50px;
+	width: 17%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover  ;
+    background-repeat: none; 
+    border-right:2px solid white;	}
+.navgaming{
+	z-index: 2;
+	display: inline-block;
+	float: left;
+	height: 50px;
+	width: 17%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover  ;
+    background-repeat: none; 
+    border-right:2px solid white;}
+.navcon{
+	z-index: 1;
+	display: inline-block;
+	float: left;
+	height: 50px;
+	width: 17%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover  ;
+    margin-right: 1%;
+    border-right:2px solid white;
+    background-repeat: none; }
+/*.navhome:hover , .navabout:hover, .navgaming:hover, .navpro:hover, .navcon:hover {
+	z-index: 1;
+	color: black	;
+	background-color: #efeae6;} */
+.circle{
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px ;}
+.text{
+	position: relative; 	
+	vertical-align: bottom;
+	text-align: center;
+	font-size: 100%;}
+/***************************************************************************************************************/
+/*HOME PAGE ****************************************************************************************************/
+
+.center{text-align: center;}
+.center1{margin-left: 25%;}
+.centername{
+  text-align: center;
+  background-color:black ; 
+  opacity: .8;
+  border-radius: 12px;}
+.fill{}
+.font{font-size: 1.5em;}
+.font2{ font-size: 1.75em;}
+p{ text-align: left}
+.background1{
+  background: url("./pics/white.jpg")fixed ;
+  background: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height : 1000px;
+  margin-top: -2%;}
+.white{
+	background-color: transparent;
+	width:75%;
+	height: 88%;
+	top:5%;
+	margin-right: auto;
+	margin-left: auto; 
+	border-radius: 12px}
+.centerpic{
+	float: left;
+	width: 40%;
+	margin-top: 5%;
+	margin-right: 0% ;
+	margin-left: auto;}
+.centerabout{
+	background: white;
+  opacity: .8;
+	float: left;
+	box-shadow: 7px 7px 8px black;
+	width: 50%;
+	padding-left: 2%;
+	margin-top: 5%;
+	margin-left: 5%;
+	border-top: 4px solid black;
+	border-radius: 10px;}
+.left{text-align: center;}
+.propic{
+  margin-left: 10%;
+  margin-top: 20%;
+  width: 100%;
+  height: 65%;
+  position: center;
+  box-shadow: -7px -7px 8px black;
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px ;}
+.center{
+	width: 100%;
+	position: center;
+	margin-top: 5%;
+	text-align: center;
+	vertical-align: center;
+	margin-bottom: 2%;}
+.about{
+	text-align: center ;	
+	font-size: 100%;
+	top: 2%;}
+.name{
+	color: white ;
+	font-size: 50px	;
+	position: center;
+	text-align: center;
+	font-size: 500%;
+	margin-bottom: -5%;}
+
+/********************************************************************************************************/
+/*ABOUT**************************************************************************************************/
+
+
+.backgroundblack{
+
+	background-color:black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+	}
+.aboutwall{
+  position: relative;
+  margin-bottom: 10%;
+  top: 10%;
+  width: 99.5%;
+  height: 80%;
+  background: url(./pics/space.jpg);
+=======
+body{
+  background: url(./city.png) no-repeat center center fixed; 
+>>>>>>> master
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*height: 100vh;*/
+}
+
+.animsition{
+	position: absolute;
+}
+
+<<<<<<< HEAD
+.biography{
+  margin-top: 2%;
+  float: left;
+  height: 65%;
+  width: 23%;
+  opacity: .9;
+  margin-left:-3%;
+  margin-right: 5%;
+  border-radius: 12px;
+  background: white;
+  border: 4px solid black;
+  box-shadow: 7px -7px 8px black;
+}
+.biography2{
+  margin-top: 2%;
+  float: left;
+  height: 70%;
+  width: 25%;
+  opacity: .9;
+  margin-left:5%;
+  margin-right:1%;
+  border-radius: 12px;
+  background: white;
+  border: 4px solid black;
+  box-shadow: 7px -7px 8px black;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+.biographyspace{
+  float: left;
+  height: 7%;
+  padding-left: 12%;
+=======
+.center{
+	display: center;
+>>>>>>> master
+}
+.logo{
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+}
+
+.info{
+	position: absolute;
+	opacity: .9;
+
+	color: white;
+
+	vertical-align: bottom ;
+	top: -5vh ;
+	left: 20vh;
+	margin-top: 10vh;
+
+	width: 150vh;
+	height: 15vh;
+
+	border-bottom-color: white;
+	border-bottom-style: solid;
+	border-bottom-radius: 1vh;
+
+}
+<<<<<<< HEAD
+.prodiv{
+  margin-left: 25%;
+  margin-right: auto;
+  width: 50%;
+  height: 10%;
+  background: white;
+  color: blue;
+  border-radius: 12px;
+  margin-bottom: 2%;
+  box-shadow: -10px -10px 5px #000080;
+}
+.protext{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  font-size: 5em;
+  margin-top: 0%;
+  margin-left: 23%;
+  margin-right: auto;
+  color: #000080;
+}
+
+.prodivs{
+  float: left;
+  position: center;
+  padding-top: 1%;
+  padding-bottom:2%s;
+  height: 5%;
+  width: 30%;
+  margin-left: 3%;
+  margin-right: auto;
+  background: white;
+  border-radius: 12px ;
+  box-shadow: 10px -10px 5px #000080;
+=======
+
+.redirect{
+	background: transparent; ;
+	position: absolute;
+	opacity: 1;
+
+	color: white;
+	vertical-align: bottom;
+	top: 21vh;
+	left: 75.75vh;
+	margin-top: 25vh;
+
+	width: 25vh;
+	height:22vh;
+
+}
+
+.pic{
+	height: 22.1vh;
+	border: 1.5vh solid white;
+	border-radius: 25vh;
+	margin-bottom: 2vh;
+}
+
+.divider{
+	background: transparent; ;
+	position: absolute;
+	opacity: 1;
+>>>>>>> master
+
+	color: white;
+	vertical-align: bottom;
+	top: 50vh;
+	left: 70vh;
+	margin-top: 25vh;
+
+	width: 40vh;
+	height: 12vh;
+
+<<<<<<< HEAD
+.divstext{
+  color: #000080;
+  text-align: center;
+  font-size: 150%;
+  position: center;
+=======
+	border-bottom-color: white;
+	border-bottom-style: solid;
+	border-bottom-radius: 10vh;
+>>>>>>> master
+
+}
+.info2{
+	position: absolute;
+	opacity: .9;
+
+	color: white;
+	vertical-align: bottom;
+	top: 45vh;
+	left: 40vh;
+
+	margin-top: 25vh;
+	width: 100vh;
+	height:35vh;
+}
+
+.intro_name{
+	font-size: 10vh ; 
+	text-align : center ;
+}
+
+.intro_hobbies{
+	font-size: 4vh ; 
+	text-align : center;
+	top-margin: 3vh;
+}
+
+.intro_where{
+	font-size: 3.0vh ; 
+	text-align : center;
+	margin-bottom: 1vh;
+}
+
+.links{
+	  display: center;
+	background: black;
+	top : 100vh;
+	width: 150vh;
+	height: 12vh;
+	margin-right: 50vh;
+	position: center;
+}
+.box1 {
+  display: inline-block;
+  width: 5vh;
+  height: 5vh;
+  margin-right: 5vh;
+  margin-left: 30vh;
+}
+.box {
+  display: inline-block;
+  width: 5vh;
+  height: 5vh;
+  margin-right: 5vh;
+  margin-left: 5vh;
+
+}
+.link{
+	height:10vh;
+	filter: gray;
+	border-radius: 2vh;
+}
+.copyright{
+	margin-top: 96vh ;
+	left: 50vh;
+
+	width: 35vh;
+	height: 5vh;
+
+	text-align: center;
+
+	font-size: 2.5vh;
+	color: white;
+
+}
