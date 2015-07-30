@@ -44,7 +44,7 @@ body{
 
 	color: white;
 	vertical-align: bottom;
-	top: 10vh;
+	top: 12vh;
 	left: 75.75vh;
 	margin-top: 25vh;
 
@@ -57,8 +57,8 @@ body{
 	height: 25vh;
 	border: 3vh solid white;
 	border-radius: 25vh;
-	margin-bottom: 2vh;
-	opacity: .25;
+	margin-bottom: 3vh;
+	opacity: .45;
 
 
 	transition: border 1s, opacity 1s;
@@ -95,7 +95,7 @@ body{
 	color: white;
 	vertical-align: bottom;
 	top: 44vh;
-	left: 37vh;
+	left: 39vh;
 
 	margin-top: 25vh;
 	width: 100vh;
