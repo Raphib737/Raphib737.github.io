@@ -1,0 +1,268 @@
+.intro{
+	background: url(./city.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+h3{
+	font-size: 10vh;
+}
+.intro_space{
+	position: relative;
+	background: white;
+	width: 75%;
+	height: 75vh;
+
+	top: 7.5vh;
+	left: 30vh;
+	border-radius: 3vh;
+	opacity: .85;
+}
+
+.info_pic{
+	margin-top: 2vh;
+	width: 40vh;
+	border-radius: 3vh;
+	opacity: 1;
+}
+.intro_text{
+	position: relative;
+	
+	background: black;
+	width: 90%;
+	height: 96%;
+
+	left: 1.5vh;
+	top: 1.5vh;
+	border-radius: 3vh;
+	opacity: 1;
+}
+.write{
+	color: white;
+	padding-left: 2vh;
+	position: relative;
+	width: 100%;
+	height: 5%;
+	background: black;
+	font-size: 4vh;
+	border-radius: 3vh;
+}
+.write2{
+	margin-left: 45vh;
+	color: white;
+	padding-left: 0vh;
+	position: relative;
+	width: 65%;
+	height: 55%;
+	font-size: 4vh;
+	border-radius: 3vh;
+
+}
+.intro_button{
+	position: relative;
+	background: black;
+	height: 9vh;
+	width: 9vh;
+
+	left: 129vh ;
+	top: 29vh;
+	border-radius: 25vh;
+}
+.intro_square{
+	position: relative;
+	top: 2.25vh ;
+	left: 2vh;
+	width: 50%;
+	height: 50%;
+	border-style: solid;
+	border-color: white;
+	background: black; 
+}
+
+
+}
+.about{
+	width: 100%;
+	height: 100vh;
+	background: black;
+	color: white;
+}
+.Fabout{
+	text-align: center;
+	display: inline-block;
+	width: 25%;
+	height: 40%;
+	margin-left: 10vh;
+	border-radius: 3vh;
+}
+
+.font_header{
+	position: relative;
+	top: 1vh;
+	font-size: 5vh;
+}
+.font_headerg{
+	position: relative;
+	top: 2vh;
+	font-size: 5vh;
+}
+.font_headerh{
+	position: relative;
+	top: 0vh;
+	font-size: 5vh;
+}
+.font_header2{
+	text-align: left;
+	font-size: 3vh;
+}
+
+.res{
+	height: 30vh;
+	width: 25vh;
+	border-radius: 1vh;
+}
+.project_header{
+	width: 100%;
+	color: white;
+	height: 12vh;
+	font-size: 7vh;
+	position: center;
+	text-align: center;
+	background: black;
+	margin-bottom: 3vh;
+}
+.spacing{
+	padding-bottom: 20vh;
+}
+
+.textfont{
+	color: black;	
+}
+.textfont2{
+	color: white;
+	text-shadow: -.25vh 0 black, 0 .25vh black, .25vh 0 black, 0 -.25vh black;
+}
+.first{
+	position: relative;
+	background: purple;
+	width: 100%;
+	height: 95vh;
+}
+
+.second{
+	position: relative;
+	background: url("chat.png") no-repeat center;
+	width: 100%;
+	height: 95vh;
+}
+
+.third{
+	position: relative;
+	background: url("graph.png");
+	opacity: .7;
+	color: black;
+	width: 100%;
+	height: 95vh;
+}
+
+
+.resume{
+	width: 100%;
+	height: 100vh;
+}
+
+.resume_space{
+	background: gray;
+	width: 100%;
+	height: 200vh;
+}
+
+
+
+.connect{
+  background: url("./boston.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 95vh;
+}
+
+.connecttext{
+	position: relative;
+	top: 25vh;
+	left: 40vh;
+	display: center;
+	width: 55%;
+	height: 40vh;
+	opacity: .9;
+	background: white;
+	border-radius: 2vh;
+	border-style: solid 5px;
+	border-color: black;
+}
+
+.text{
+	font-size: 7vh;
+}
+.text2{
+	font-size: 4vh;
+}
+
+.centered{
+	position: relative;
+	top: 2vh;
+	background:;
+	text-align: center;
+	width: 100%;
+	height: 20vh;
+}
+
+.links{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	display: inline-block;
+	position: relative;
+	left: 10vh;
+	width: 20%;
+	height: 20vh;
+
+}
+
+.sized{
+	height: 20vh;
+}
+
+.sized1{
+	height: 13vh;
+}
+.sized2{
+	height: 15vh;
+}
+.sized3{
+	height: 15vh;
+}
+
+.copyright{
+	left: 50vh;
+
+	width: 100%;
+	height: 5vh;
+	text-align: left;
+
+	padding-left:2.5em;
+	font-size: 2.5vh;
+
+	background: black;
+	color: white;
+
+}
+
+/*
+				<div class = "resume_title">
+					<div class = "resume_font">Resume</div>
+				</div>
+				<div class = "resume_space"><object data="resume.pdf" type="application/pdf" class="resume"></object></div>
+*/
