@@ -6,12 +6,18 @@ body{
   -o-background-size: cover;
   background-size: cover;
   /*height: 100vh;*/
+  font-size: 12px;
 }
 
 .animsition{
 	position: absolute;
+	width: 100%;
+
 }
 
+.t{
+	background-color: red;
+}
 .info{
 	position: absolute;
 	opacity: .9;
@@ -19,45 +25,34 @@ body{
 	color: white;
 
 	vertical-align: bottom ;
-	top: -5vh ;
-	left: 20vh;
-	margin-top: 10vh;
+	top: 5% ;
+	left: 17.5% ;
+	margin-top: 1%;
 
-	width: 150vh;
-	height: 15vh;
-
-	border-bottom-color: white;
-	border-bottom-style: solid;
-	border-bottom-radius: 1vh;
+	width: 65%;
+	height: 15%;
 
 }
 
 .intro_name{
-	font-size: 10vh ; 
+	width: 100%;
+	font-size: 5em;
+	color: white;
 	text-align : center ;
 }
 
-.redirect{
-	background: transparent; ;
-	position: absolute;
-	opacity: 1;
-
-	color: white;
-	vertical-align: bottom;
-	top: 12vh;
-	left: 75.75vh;
-	margin-top: 25vh;
-
-	width: 25vh;
-	height:22vh;
-
+.name{
+	margin-top: 3%;
+    border-bottom: medium solid white;
 }
 
 .pic{
-	height: 25vh;
-	border: 3vh solid white;
+	display: block;
+	margin: 5% auto;
+
+	height: 15em;
+	border: 25px solid white;
 	border-radius: 25vh;
-	margin-bottom: 3vh;
 	opacity: .45;
 
 
@@ -68,7 +63,7 @@ body{
 }
 
 .pic:hover{
-	border: 1vh solid white;
+	border: 12px solid white;
 	opacity: 1;
 
 
@@ -102,9 +97,20 @@ body{
 	height:30vh;
 }
 
-.intro_name{
-	font-size: 10vh ; 
-	text-align : center ;
+.table{
+	background: blue;
+	margin: 0 auto;
+}
+.right{
+	text-align: right;
+}
+
+.mid{
+	text-align: middle;
+}
+
+.left{
+	text-align: left;
 }
 
 .intro_hobbies{
@@ -120,7 +126,7 @@ body{
 }
 
 .links{
-	  display: center;
+	display: center;
 	background: black;
 	top : 100vh;
 	width: 150vh;
@@ -145,7 +151,6 @@ body{
 }
 .link{
 	height:10vh;
-	filter: gray;
 	border-radius: 2vh;
 }
 .copyright{

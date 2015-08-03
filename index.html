@@ -2,41 +2,46 @@
 <html>
     <head>
         <link rel="shortcut icon" href="favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> Raphael Denimir I. Baysa </title>
     </head>
 
-    <!-- Bootstrap core CSS -->
-    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="animsition.min.css">
-    <!-- Personal CSS -->
-    <link href="./index.css" rel = "stylesheet" >
+    <body>
+        <!-- Bootstrap core CSS -->
+        <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="animsition.min.css">
+        <!-- Personal CSS -->
+        <link href="./index-copy.css" rel = "stylesheet" >
 
-        <body >
-            <div class="animsition">
-                <div class = "info">
-                    <p class = "intro_name" > Raphael Denimir I. Baysa</p>
+        <div class="animsition">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 name">
+                    <p class="intro_name"> Raphael Denimir I. Baysa</p>
                 </div>
-                <div class = "redirect">
-                    <a class="animsition-link"
-                        data-animsition-in="zoom-in-large"
-                        data-animsition-in-duration="100"
-                        href="./home.html"><img src ="./logo.jpg" class = "pic">
-                    </a>
-                </div>
-                <div class = "divider"></div>
-                <div class = "info2">
-                    <p class = "intro_hobbies" >Software Engineer | Aspiring Web Developer | Gamer </p>
-                    <p class = "intro_where" > Computer Science @ Boston University </p>
-                </div>
-
-
-                <div class = "copyright">&#169; 2015 Raphael Baysa </div>
             </div>
-            <script type="text/javascript" src="./jquery.min.js"></script>
-            <script type="text/javascript" src="./jquery.animsition.min.js"></script>
-            
-            <script type="text/javascript" src="./main.js"></script>
-            <script src="./dist/js/bootstrap.min.js"></script>
+
+
+
+            <a class="animsition-link"
+                    data-animsition-in="zoom-in-large"
+                    data-animsition-in-duration="100"
+                    href="./home.html"><img src="./logo.jpg" class="pic">
+            </a>
+
+
+
+            <div class="row table">
+                <div class="col-md-4 right">Software Engineer</div>
+                <div class="col-md-4 mid">Aspiring Web Developer</div>
+                <div class="col-md-4 left">Gamer</div>
+            </div>
+        </div>
+
+
+    <script type="text/javascript" src="./jquery.min.js"></script>
+    <script type="text/javascript" src="./jquery.animsition.min.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
             <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        </body>
+    </body>
 </html>
