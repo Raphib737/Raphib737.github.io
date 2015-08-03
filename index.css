@@ -15,25 +15,6 @@ body{
 
 }
 
-.t{
-	background-color: red;
-}
-.info{
-	position: absolute;
-	opacity: .9;
-
-	color: white;
-
-	vertical-align: bottom ;
-	top: 5% ;
-	left: 17.5% ;
-	margin-top: 1%;
-
-	width: 65%;
-	height: 15%;
-
-}
-
 .intro_name{
 	width: 100%;
 	font-size: 5em;
@@ -42,7 +23,7 @@ body{
 }
 
 .name{
-	margin-top: 3%;
+	margin-top: 2%;
     border-bottom: medium solid white;
 }
 
@@ -59,110 +40,49 @@ body{
 	transition: border 1s, opacity 1s;
 	-webkit-transition: border 1s, opacity 1s;
 
-	/*transition: border-radius 2s;*/
-}
+	/*transition: border-radius 2s;*/}
 
 .pic:hover{
 	border: 12px solid white;
-	opacity: 1;
-
-
-}
-
-.divider{
-	background: transparent; ;
-	position: absolute;
-	opacity: 1;
-	color: white;
-	vertical-align: bottom;
-	top: 50vh;
-	left: 70vh;
-	margin-top: 25vh;
-
-	width: 40vh;
-	height: 12vh;
-}
-
-.info2{
-	position: absolute;
-	opacity: .9;
-
-	color: white;
-	vertical-align: bottom;
-	top: 44vh;
-	left: 39vh;
-
-	margin-top: 25vh;
-	width: 100vh;
-	height:30vh;
-}
+	opacity: 1;}
 
 .table{
-	background: blue;
-	margin: 0 auto;
-}
-.right{
-	text-align: right;
-}
+	width: 100%;
+	color: white;
+	display: block;
+	margin: 0 auto;}
 
 .mid{
-	text-align: middle;
-}
-
+	font-size: 2em;
+	display: block;
+	text-align: center;
+	margin: 0 auto;}
 .left{
-	text-align: left;
-}
+	font-size: 2em;
+	text-align: center;
+	border-right: 5px ;}
+.right{
+	font-size: 2em;
+	text-align: center;}
 
+.where{
+	margin: 1% auto;
+	font-size: 1.5em;
+	color: white;
+	text-align : center ;
+	width: 100%;}
 .intro_hobbies{
 	font-size: 4vh ; 
 	text-align : center;
-	top-margin: 3vh;
-}
+	top-margin: 3vh;}
 
 .intro_where{
 	font-size: 3.0vh ; 
 	text-align : center;
-	margin-bottom: 1vh;
-}
+	margin-bottom: 1vh;}
 
-.links{
-	display: center;
-	background: black;
-	top : 100vh;
-	width: 150vh;
-	height: 12vh;
-	margin-right: 50vh;
-	position: center;
-}
-.box1 {
-  display: inline-block;
-  width: 5vh;
-  height: 5vh;
-  margin-right: 5vh;
-  margin-left: 30vh;
-}
-.box {
-  display: inline-block;
-  width: 5vh;
-  height: 5vh;
-  margin-right: 5vh;
-  margin-left: 5vh;
-
-}
-.link{
-	height:10vh;
-	border-radius: 2vh;
-}
-.copyright{
-	margin-top: 96vh ;
-	left: 50vh;
-
-	width: 35vh;
-	height: 5vh;
-
-	text-align: center;
-
-	font-size: 2.5vh;
+/*.copyright{
+	margin: 0 5% auto;
 	color: white;
-
-}
+	font-size: 1em;
+}*/
